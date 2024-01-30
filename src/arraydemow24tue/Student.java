@@ -5,20 +5,25 @@
 package arraydemow24tue;
 
 /**
- *This has been modified by Darshan on 23 Jan at 12:47PM
+ * This has been modified by Darshan on 23 Jan at 12:47PM
+ *
  * @author Ronak
  */
 public class Student {
+
     private int sid;
     private String sname;
+    private String Address;
+
+    public String getAddress(){
+    return Address;
+    }
 
     public Student(int sid, String sname) {
         this.sid = sid;
         this.sname = sname;
     }
 
-    
-    
     public int getSid() {
         return sid;
     }
@@ -34,7 +39,5 @@ public class Student {
     public void setSname(String sname) {
         this.sname = sname;
     }
-    
-    
-    
+
 }
